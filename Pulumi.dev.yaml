@@ -1,0 +1,13 @@
+encryptionsalt: v1:6axbGy6Nh+8=:v1:po62nciybj8CkzTe:DT8wREtBbWKsahN6KsSh+l5GjtFl8w==
+config:
+  opnmon:elastic-password:
+    secure: v1:MKnP1cTtYg5V+VBL:sZQHydw96rFdTDBoyIhkkpGu+UvheH5yRw==
+  opnmon:elastic-user: fantashtick
+  opnmon:grafana-password:
+    secure: v1:WX/gcyS3uEn8PAZl:1uIQa8Ht5R3YEqK9TynXDG9LmUOs7MN2KDA=
+  opnmon:grafana-user: graftashtick
+  opnmon:grayroot:
+    secure: v1:MpGAXWsTjDw9MNUI:pjOaGH/R7PT5/NldXp1B81oAMXVAxtvVJ48=
+  opnmon:influx-password:
+    secure: v1:GHoXcvT9Ee6iJYb6:MR47+br7z2JhRsgacazg8ockNzATXvrKQw==
+  opnmon:influx-user: influshtick
