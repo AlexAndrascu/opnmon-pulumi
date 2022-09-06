@@ -91,6 +91,7 @@ const elastiContainer = new docker.Container("elasticsearch", {
         '"discovery.type=single-node"',
         'ES_JAVA_OPTS=-Xms512m -Xmx512m',
         'ELASTIC_USERNAME=' + config.require("elastic-user"),
+        elasticpass
 
     ],
     networksAdvanced: [
