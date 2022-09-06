@@ -16,7 +16,7 @@ ElasticSearch username:\
 `pulumi config set elastic-user [your-es-username]`
 
 ElasticSearch password:\
-`pulumi config set --secret elastic-user [your-es-password]`
+`pulumi config set --secret elastic-password [your-es-password]`
 
 InfluxDB username:\
 `pulumi config set influx-user [your-influx-username]`
