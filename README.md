@@ -4,13 +4,13 @@ Inspired by https://github.com/bsmithio/OPNsense-Dashboard
 
 #### Quick start: ####
 
-Add the required packages:\
+Add the required packages:
 
-`yarn add pulumi pulumi-docker crypto`\
+`yarn add pulumi pulumi-docker crypto`
 
-`yarn install`\
+`yarn install`
 
-Set the following pulumi config vars & secrets:\
+Set the following pulumi config vars & secrets:
 
 ElasticSearch username:\
 `pulumi config set elastic-user [your-es-username]`
@@ -30,14 +30,14 @@ Graylog root password:\
 Grafana username:\
 `pulumi config set grafana-user [your-grafana-username]`
 
-Grafana password:
+Grafana password:\
 `pulumi config set --secret grafana-password [your-grafana-password]`
 
-Deploy the infrastructure:\
+Deploy the infrastructure:
 
 `pulumi up`
 
-Teardown the infrastructure:\
+Teardown the infrastructure:
 
 `pulumi down`
 
